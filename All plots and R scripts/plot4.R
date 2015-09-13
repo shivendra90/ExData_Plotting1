@@ -13,7 +13,7 @@ subset = rbind(date.1, date.2)
 subset$Date = as.Date(subset$Date, format = '%d/%m/%Y')
 class(subset$Date)
 
-##Create the histogram of gobal power vs. frequency
+##Create the panel to include 4 plots
 
 par(mfrow = c(2,2), mai = c(0.5,0.5,0.5,0.5))
 
